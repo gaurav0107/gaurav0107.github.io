@@ -1,0 +1,91 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.profile-image {
+    border-radius: 50%;
+    min-height: 100px;
+    min-width: 100px;
+    height: 60%;
+    width: 24%;
+    border:1px solid #021a40;
+
+}
+
+.portfolio-image {
+    border-radius: 50%;
+    min-height: 120px;
+    min-width: 120px;
+    height: 60%;
+    width: 24%;
+    border:1px solid #021a40;
+
+}
+
+.head {
+	width:60%;
+  	clear:both;
+  	margin:0 auto;
+}
+
+.head-col-1{
+	width:35%;
+  	float:left;
+  	margin:0 auto;
+
+}
+
+.head-col-2{
+	width:60%;
+  	float:left;
+  	margin:0 auto;
+}
+
+.title {
+	font-size: 2em;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	text-align: center;
+}
+.headline {
+	font-size: 0.8em;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	text-align: center;	
+}
+
+.portfolio-head {
+	width:80%;
+	height: 40%;
+  	clear:both;
+  	margin:0 auto;
+}
+
+.portfolio-col{
+	width:20%;
+	height: 40%;
+	min-height: 100px;
+  	float:left;
+  	margin:0 auto;
+
+}
+
+.col-md-2 {
+	margin:5 auto;
+	align-self: center;
+	float: center;	
+}
+
+
+
+
+
+
+
+
+
+
+
