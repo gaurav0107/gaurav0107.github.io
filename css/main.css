@@ -5,7 +5,7 @@
    ========================================================================== */
 
 
-.profile-image {
+.main-profile-image {
     border-radius: 50%;
     min-height: 100px;
     min-width: 100px;
@@ -15,16 +15,69 @@
 
 }
 
+
 .portfolio-image {
-    border-radius: 50%;
-    min-height: 120px;
-    min-width: 120px;
+    min-height: 200px;
+    min-width: 200px;
     height: 60%;
     width: 24%;
-    border:1px solid #021a40;
+    margin: 0 auto;
 
 }
 
+.profile-image {
+	background: url('../img/profile.png');
+	background-repeat: no-repeat;
+	
+}
+
+.profile-image:hover {
+	background: url('../img/profile.gif');
+	background-repeat: no-repeat;
+	
+}
+.port-image {
+	background: url('../img/portfolio.png');
+	background-repeat: no-repeat;
+}
+
+.port-image:hover {
+	background: url('../img/portfolio.gif');
+	background-repeat: no-repeat;
+}
+.resume-image {
+	background: url('../img/resume.png');
+	background-repeat: no-repeat;
+	
+}
+
+.resume-image:hover {
+	background: url('../img/resume.gif');
+	background-repeat: no-repeat;
+	
+}
+.blog-image {
+	background: url('../img/blog.png');
+	background-repeat: no-repeat;
+	
+}
+
+.blog-image:hover {
+	background: url('../img/blog.gif');
+	background-repeat: no-repeat;
+}
+
+.contact-image {
+	background: url('../img/contact.png');
+	background-repeat: no-repeat;
+	
+}
+
+.contact-image:hover {
+	background: url('../img/contact.gif');
+	background-repeat: no-repeat;
+	
+}
 .head {
 	width:60%;
   	clear:both;
@@ -74,13 +127,17 @@
 }
 
 .col-md-2 {
-	margin:5 auto;
+	margin:15px;
 	align-self: center;
 	float: center;	
 }
 
 
-
+.portfolio-caption {
+	text-align: center;
+	font-size: 1em;
+	text-transform: capitalize;
+}
 
 
 
